@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Upload a File and then download a file and update")
+st.title("Upload a File")
 
 uploaded_file = st.file_uploader("Choose a file", type=["csv", "txt", "pdf", "png", "jpg"])
 if uploaded_file is not None:
